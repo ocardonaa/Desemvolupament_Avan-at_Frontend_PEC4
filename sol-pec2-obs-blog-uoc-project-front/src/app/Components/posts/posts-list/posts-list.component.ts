@@ -30,6 +30,7 @@ export class PostsListComponent {
       this.postService.getPostsByUserId(userId).subscribe(
         (posts: PostDTO[]) => {
           this.posts = posts;
+          console.log(posts);
         },
         (error: HttpErrorResponse) => {
           errorResponse = error.error;

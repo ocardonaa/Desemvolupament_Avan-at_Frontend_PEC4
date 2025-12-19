@@ -20,6 +20,10 @@ describe('CategoryService', () => {
         httpMock.verify();
     });
 
+    it('should create a service instance', () => {
+        expect(categoryService).toBeTruthy();
+    });
+
     it('should return categories by userId and use GET', () => {
         const userId = '1';
         const expectedCategories: CategoryDTO[] = CATEGORIES_MOCK.filter(cat => cat.userId === userId);
@@ -31,7 +35,7 @@ describe('CategoryService', () => {
         req.flush(expectedCategories);
     });
 
-    it('should create a category use POST', () => {
+    it('should create a category and use POST', () => {
         const newCategory: CategoryDTO = {
             title: 'example title',
             description: 'example description',
