@@ -4,7 +4,7 @@ import { CATEGORIES_MOCK } from "../Models/category.mock";
 import { CategoryDTO } from "../Models/category.dto";
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 
-describe('CategoryService', () => {
+describe('CategoryService Ex3', () => {
     let categoryService: CategoryService;
     let httpMock: HttpTestingController;
     beforeEach(() => {

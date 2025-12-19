@@ -1,6 +1,6 @@
 import { FormatDatePipe } from "./format-date.pipe";
 
-describe('FormatDatePipe', () => {
+describe('FormatDatePipe Ex1', () => {
     let pipe: FormatDatePipe;
 
     beforeEach(() => {

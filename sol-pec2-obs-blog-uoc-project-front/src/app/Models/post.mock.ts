@@ -32,7 +32,7 @@ export const POSTS_MOCK: PostDTO[] = [
         num_dislikes: 0,
         publication_date: new Date,
         categories: [CATEGORIES_MOCK[1], CATEGORIES_MOCK[2]],
-        userId: '1',
-        userAlias: 'Manolo',
+        userId: '2',
+        userAlias: 'Bartolo',
     },
 ]

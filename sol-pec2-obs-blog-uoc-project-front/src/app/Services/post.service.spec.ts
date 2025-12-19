@@ -8,7 +8,7 @@ import { deleteResponse, updateResponse } from "./post.service";
 import { NONE_TYPE } from "@angular/compiler";
 
 
-describe('PostService', () => {
+describe('PostService Ex3', () => {
     let postService: PostService;
     let httpMock: HttpTestingController;
 
